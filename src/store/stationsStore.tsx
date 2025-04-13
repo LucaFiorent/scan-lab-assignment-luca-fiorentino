@@ -20,15 +20,12 @@ const useStationsStore = create<useStationStoreI>()(
       isLoading: false,
       setIsLoading: (isLoading: boolean) => set({ isLoading: isLoading }),
       setActualStationID: (stationID: string) => {
-        console.log("STORE:\nstation ID:", stationID);
         set({ actualStationID: stationID });
       },
       setActualStation: (station: Station) => {
-        console.log("STORE:\nstation ID:", station);
         set({ station: station });
       },
       setSensorsDetails: (sensorsDetails: SensorDetails[]) => {
-        console.log("STORE:\nsensorDetails:", sensorsDetails);
         set({ sensorsDetails: sensorsDetails });
       },
     }),
