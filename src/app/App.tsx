@@ -1,5 +1,5 @@
 import { QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+// import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import ToastContainer from "../components/ui/Toast/ToastContainer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { queryClient } from "../react-query/queryClient";
@@ -19,7 +19,8 @@ function App() {
         </Routes>
         <ToastContainer />
       </Router>
-      <ReactQueryDevtools initialIsOpen={false} />
+      {/*   // Tanstack Query Devtools for testing data fetching    
+      <ReactQueryDevtools initialIsOpen={false} /> */}
     </QueryClientProvider>
   );
 }

@@ -59,7 +59,7 @@ Here's a quick overview of the main directories and files in this project:
 `public/`: Static files, such as images, icons, and index.html.</br></br>
 `vite.config.ts`: Configuration file for Vite.</br></br>
 `package.json`: Manages project dependencies, scripts, and metadata such as the project name and version.
-`dist`: This is the build output folder generated after running the production build.It contains the final compiled and optimized files ready for deployment.
+`dist`: ONLY LOCAL AFTER BUILD - This is the build output folder generated after running the production build.It contains the final compiled and optimized files ready for deployment.
 
 after adding the .env variables
 

@@ -21,7 +21,11 @@ export async function getStationsDetails(stationID: string) {
 export async function getRealTimeSensorDetails(stationID: string) {
   const prepareUrl = `${baseUrl}/station/${stationID}/live`;
   const { data } = await axiosInstance.get(prepareUrl);
-  console.log("REALTIME DATA", data);
+  console.log(
+    "REALTIME DATA:\n",
+    data,
+    "\n!!!COMMITTED ONLY FOR PREVIEW PURPOSES FOR THE ASSIGNMENT."
+  );
 
   return data;
 }
