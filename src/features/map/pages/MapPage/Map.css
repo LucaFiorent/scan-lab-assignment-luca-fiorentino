@@ -1,0 +1,28 @@
+.leaflet-control-zoom {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #222; /* Dark background */
+  border: none; /* Remove default border */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-left .leaflet-control {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.leaflet-control-zoom a {
+  color: white; /* Button icon color */
+  background-color: #333;
+  font-size: 20px;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: #555;
+}
+
+.custom-div-icon {
+  background: none;
+  border: none;
+}
