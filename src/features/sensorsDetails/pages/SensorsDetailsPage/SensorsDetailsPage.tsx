@@ -1,7 +1,7 @@
 import { useSyncSensorDetails } from "../../hooks/logic/useSensorDetails";
 import useStationsStore from "../../../../store/stationsStore";
-import SensorDetailsWrapper from "../../components/SensorDetailsWrapper/SensorsDetailsWrapper";
 import LoadingComponent from "../../../../components/ui/LoadingComponent/LoadingComponent";
+import SensorsDetailsWrapper from "../../components/SensorsDetailsWrapper/SensorsDetailsWrapper";
 import SensorDetails from "../../components/SensorDetails/SensorDetails";
 import ErrorMessage from "../../../../components/ui/ErrorMessage/ErrorMessage";
 
@@ -12,13 +12,13 @@ const SensorsDetailsPage = () => {
 
   if (isLoading) {
     return (
-      <SensorDetailsWrapper>
+      <SensorsDetailsWrapper>
         <LoadingComponent />
-      </SensorDetailsWrapper>
+      </SensorsDetailsWrapper>
     );
   }
   return (
-    <SensorDetailsWrapper>
+    <SensorsDetailsWrapper>
       {station && sensorsDetails ? (
         <SensorDetails station={station} sensorsDetails={sensorsDetails} />
       ) : (
@@ -29,7 +29,7 @@ const SensorsDetailsPage = () => {
           align="left"
         />
       )}
-    </SensorDetailsWrapper>
+    </SensorsDetailsWrapper>
   );
 };
 

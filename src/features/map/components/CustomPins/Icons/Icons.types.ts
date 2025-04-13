@@ -1,4 +1,4 @@
 export interface SensorPinProps {
-  stroke?: string;
-  fill?: string;
+  stroke: string;
+  fill: string;
 }

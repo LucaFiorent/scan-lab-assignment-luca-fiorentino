@@ -53,12 +53,13 @@ export const createIcon = (status: string): L.Icon => {
   }
 
   return L.divIcon({
+    iconUrl: "",
     className: `custom-div-icon sensor-icon ${status}`,
     html: ReactDOMServer.renderToString(
       <SensorPin stroke={iconColor.stroke} fill={iconColor.fill} />
-    ),
+    ).toString(),
     iconSize: [20, 20], // Adjust the size of the icon
     iconAnchor: [30, 30], // Anchor the icon at the bottom center
     popupAnchor: [0, -20], // Position the popup
-  });
+  }) as L.Icon<L.IconOptions>;
 };
