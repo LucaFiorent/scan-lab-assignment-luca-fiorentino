@@ -19,10 +19,10 @@ This app enables users to view a list of stations, each of which provides sensor
 
 If you haven't already cloned the repository, use the following command to clone it locally:
 
-git clone 🔗 [https://github.com/LucaFiorent/scan-lab-assignment-luca-fiorentino.git](https://github.com/LucaFiorent/scan-lab-assignment-luca-fiorentino.git)
+git clone 🔗 [https://github.com/LucaFiorent/scan-lab-luca-fiorentino.git](https://github.com/LucaFiorent/scan-lab-luca-fiorentino.git)
 Then navigate to the project folder:
 
-### 📤 `cd ./scan-lab-assignment-luca-fiorentino/`
+### 📤 `cd ./scan-lab-luca-fiorentino/`
 
 ### 📦 Step 2: Install dependencies
 
